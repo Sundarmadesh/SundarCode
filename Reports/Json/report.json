@@ -1,0 +1,394 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6148317600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome application",
+            "match": {
+              "location": "Homepage.to_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Verify Home Page Title",
+        "description": "",
+        "id": "navigate-and-purchase-ticket-on-blazedemo-website;verify-home-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18703776900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To navigate \"https://blazedemo.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://blazedemo.com/index.php\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Homepage.to_navigate(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16948700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To verify the page title as \"Welcome to the Simple Travel Agency!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to the Simple Travel Agency!\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Homepage.to_verify_the_page_title_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12670345000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome application",
+            "match": {
+              "location": "Homepage.to_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Open Destination of the Week in a New Tab",
+        "description": "",
+        "id": "navigate-and-purchase-ticket-on-blazedemo-website;open-destination-of-the-week-in-a-new-tab",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14091079500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Navigate \"https://blazedemo.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://blazedemo.com/index.php\"",
+                  "offset": 9
+                }
+              ],
+              "location": "DesWeek.navigate(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9150881400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To click on the hyperlink \"destination of the week! The Beach!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"destination of the week! The Beach!\"",
+                  "offset": 26
+                }
+              ],
+              "location": "DesWeek.to_click_on_the_hyperlink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29276800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Then a new tab should open in the browser",
+            "match": {
+              "location": "DesWeek.then_a_new_tab_should_open_in_the_browser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16240200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "URL should contain the string \"vacation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vacation\"",
+                  "offset": 30
+                }
+              ],
+              "location": "DesWeek.url_should_contain_the_string(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 912113400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "To navigate back to the home page tab",
+            "match": {
+              "location": "DesWeek.to_navigate_back_to_the_home_page_tab()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23407304300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome application",
+            "match": {
+              "location": "Homepage.to_launch_the_chrome_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Purchase a Ticket",
+        "description": "",
+        "id": "navigate-and-purchase-ticket-on-blazedemo-website;purchase-a-ticket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19898357000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Navigate to \"https://blazedemo.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://blazedemo.com/index.php\"",
+                  "offset": 12
+                }
+              ],
+              "location": "blazedemobooking.navigate_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1256776700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Select \"Mexico City\" as the departure city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mexico City\"",
+                  "offset": 7
+                }
+              ],
+              "location": "blazedemobooking.select_as_the_departure_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232384300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select \"London\" as the destination city",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 7
+                }
+              ],
+              "location": "blazedemobooking.select_as_the_destination_city(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126071600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "To click on the button \"Find Flights\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find Flights\"",
+                  "offset": 23
+                }
+              ],
+              "location": "blazedemobooking.to_click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2164344700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To choose the flight with the lowest price",
+            "match": {
+              "location": "blazedemobooking.to_choose_the_flight_with_the_lowest_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3154065300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Should be navigated to the purchase page",
+            "match": {
+              "location": "blazedemobooking.should_be_navigated_to_the_purchase_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42099400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "To check the price format as \"xxx.xx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xxx.xx\"",
+                  "offset": 29
+                }
+              ],
+              "location": "blazedemobooking.to_check_the_price_format_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4109781800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click on the \"Purchase Flight\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Purchase Flight\"",
+                  "offset": 13
+                }
+              ],
+              "location": "blazedemobooking.click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20575800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "To navigated to the Purchase Confirmation page",
+            "match": {
+              "location": "blazedemobooking.to_navigated_to_the_Purchase_Confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "The \"Id\" should be stored in the console or test report for future reference",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Id\"",
+                  "offset": 4
+                }
+              ],
+              "location": "blazedemobooking.the_should_be_stored_in_the_console_or_test_report_for_future_reference(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "blazedemobooking.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate and Purchase Ticket on BlazeDemo Website",
+    "description": "",
+    "id": "navigate-and-purchase-ticket-on-blazedemo-website",
+    "keyword": "Feature",
+    "uri": "F:/Automation Testing/Clonefolder/SundarCode/src/test/resources/blazedemo/blaze.feature",
+    "tags": []
+  }
+]
